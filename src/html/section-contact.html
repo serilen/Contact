@@ -1,43 +1,65 @@
 <section class="section-contact">
-   <div class="container">
-     <div class="row">
-       <div class="col-6">
-         <form action="">
-           <div class="row">
-             <div class="col-6">
-               <input class="signup-form__field form-control form-control--small" type="text" name="name" value=""
-                 placeholder="Your name" required="" minlength="4" maxlength="30" size="30">
-             </div>
-             <div class="col-6">
-               <input class="signup-form__field form-control" type="email" name="email" value=""
-                 placeholder="Your email" required="">
-             </div>
-           </div>
-           <div class="row">
-             <div class="col">
-               <input class="signup-form__field form-control form-control--small" type="text" name="object" value=""
-                 placeholder="Object" required="" minlength="4" maxlength="30" size="30">
-             </div>
-           </div>
-           <div class="row">
-             <div class="col">
-               <input class="signup-form__field form-control form-control--small" type="text" name="object" value=""
-                 placeholder="Object" required="" minlength="4" maxlength="30" size="30">
-             </div>
-           </div>
-           <div class="row">
-             <div class="col">
-               <textarea rows="10" class="form__field form-feedback__field form-feedback__field--fixed-width"
-                 name="message" placeholder="Your message..." required=""></textarea>
-               <button class="btn btn--red">Send</button>
-             </div>
-           </div>
-         </form>
-       </div>
-       <div class="col-6">
-         <img class="img-responsive" src="@img/1556945438_19.jpg" alt="lake and hill">
-       </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <form>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <input class="form-control" id="validationDefault01" type="text" name="name" value=""
+                placeholder="Your name" required="" minlength="4" maxlength="30" size="30">
+            </div>
+            <div class="col-md-6 mb-3">
+              <input class="form-control" id="validationDefault02" type="email" name="email" value=""
+                placeholder="Your email" required="">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md mb-3">
+              <input class="form-control" id="validationDefault03" type="text" name="object" value=""
+                placeholder="Object" required="" minlength="4" maxlength="30" size="30">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"
+                placeholder="Message" required=""></textarea>
+            </div>
+          </div>
+          <button class="btn btn-success" type="submit">Send</button>
+        </form>
 
-     </div>
-   </div>
- </section>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h3 class="contact-info__title">Contact info</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p class="contact-info__descr">Lorem ipsum dolor sit amet, conse adipisicing elit. Libero incidunt quod ab mollitia quia dolorum conse.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="requisites contact-info__requisites">
+              <p class="requisites__address">13D, Functional apartment, Unique colony, 
+              </p>
+              <p class="requisites__index">Agadir 86360 </p>
+              <p class="requisites__phone">+212 124-566-780 </p>
+              <p class="requisites__phone">212 124-566-780</p>
+              <p class="requisites__email">email@website.com</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-6">
+        <img class="img-responsive" src="@img/1556945438_19.jpg" alt="lake and hill">
+      </div>
+
+    </div>
+  </div>
+</section>
