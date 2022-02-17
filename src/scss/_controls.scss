@@ -1,0 +1,22 @@
+a,
+button,
+input {
+   outline: none;
+}
+.btn {
+   color: $color-text-light;
+   text-transform: uppercase;
+   min-width: 13.5rem;
+   padding: 1rem 1.5rem;
+   border-radius: 0;
+   font-size: 1.4rem;
+   @media (max-width: 576px) {
+      min-width: 7rem;
+   }
+
+   &-light {
+      color: $success;
+   }
+
+}
+

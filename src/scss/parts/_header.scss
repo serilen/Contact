@@ -6,18 +6,31 @@
    background-size: cover;
    min-height: 500px;
    padding: 20px 0;
-   color: $gray-900;
+   color: $color-text-dark;
+
+   &__title {
+      font-size: 3.5rem;
+   }
+
+   &__subtitle {
+      font-size: 1.4rem;
+   }
 }
 
 .navbar {
    margin-bottom: 170px;
+   font-size: 1.4rem;
+
+   &-brand {
+      font-size: 1.8rem;
+   }
 }
 
-.section-contact {
-   padding: 150px 0;
+.nav-item:not(:last-child) {
+   margin-right: 2rem;
 }
 
-.section-subscribe {
-   padding: 40px 0;
-   background-color: $success;
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+   color: $color-text-dark;
 }
