@@ -13,3 +13,20 @@
    height: auto;
    display: block;
 }
+
+.social-icons {
+   list-style: none;
+   padding: 0;
+   margin-bottom: 0;
+   @media (max-width: 768px) {
+      margin-bottom: 3rem;
+   }
+
+   &__item {
+      width: 2rem;
+      margin-right: 2rem;
+      &:last-child {
+         margin-right: 0;
+      }
+   }
+}
